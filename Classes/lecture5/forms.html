@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- action tell what action to prefomr when form is submitted.-->
+    <form action="">
+        <!--inputs: -->
+        type your name here : <input type="text">
+        <br>
+        <!--required is used to make it mandatory to fill some input for ex password here-->
+        enter password: <input type="password" required>
+        <br>
+        Enter DOB: <input type="date">
+        <br>
+        choose color: <input type="color">
+        <br>
+        enter a number: <input type="numebr">
+        <br>
+        enter time: <input type="time">
+        <br>
+        Choose gender: <input type="radio">
+        <hr>
+        <h1>Placeholder</h1>
+        <br>
+        <label for="username">Enter Username</label>
+        <input type="text"
+        placeholder="Enter your name here" id="username">
+        <br>
+        <label for="password">Enter password</label>
+        <input placeholder="Enter password here" type="password" id = "password">
+        <br>
+        <button type="submit">Submit</button>
+        <button type="menu">click me</button>
+        <button type="reset">reset</button>
+        <br>
+        <hr>
+        <h1>Check box</h1>
+        <label for="gender">Male</label>
+        <!--checked is used to have box checked by default-->
+        <input type="checkbox" name ="gender" id="gender" checked>
+        <label for="gender">female</label>
+        <input type="checkbox" name ="gender" id="gender" checked>
+        <br>
+        <hr>
+        <h1>Radio button</h1>
+        <h2>Choose your age</h2>
+        <label for="18">18</label>
+        <input type="radio" name="age" id="18">
+        <label for="19" >19</label>
+        <input type="radio" name="age" id="19">
+        <br>
+        <br>
+        <hr>
+        <h1>DropDown</h1>
+        Select Language:
+        <select name="languages">
+            <!--default selected rhe to use selected-->
+            <option selected>----Select----</option>
+            <option value="Python">
+                Python
+            </option>
+            <option value="C">
+                C
+            </option>
+            <option value="c">
+                C++
+            </option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <h1>Range</h1>
+        <label for="Attendance" > Attendance</label>
+        <!--step kitne steps m inc ho -->
+        <!--value is used to give default value-->
+        <input type="range" min="0" max="100" name="Attendance" step="10" value="25">
+        <hr>
+        <h1>Text Area</h1>
+        <label for="textarea">Input text</label>
+        <textarea rows="5" cols="5" id="textarea">
+           
+        </textarea>
+
+
+
+    </form>
+    
+</body>
+</html>
