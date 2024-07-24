@@ -1,0 +1,59 @@
+.sec{
+    border:2px solid;
+    padding:1 rem;
+    margin: 10px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+ 
+/* @media(max-width: 600px){
+    .sec{
+        background-color: blueviolet;
+        text-transform: uppercase;
+    }
+    h1{
+        color: azure;
+        text-transform: capitalize;
+    }
+
+    p{
+        color: #ffff;
+    }
+} */
+
+/* @media screen and(max-width: 1080px){
+    
+} */
+
+/* landscape mode */
+@media(orientation:landscape){
+    h1{
+        color: aliceblue;
+        background-color: black;
+
+    }
+    .sec{
+        background-color: purple;
+        color: white;
+    }
+}
+
+/* portraint mode */
+
+@media(orientation:portrait){
+    .sec{
+        background-color: blueviolet;
+        text-transform: uppercase;
+    }
+    h1{
+        color: azure;
+        text-transform: capitalize;
+    }
+
+    p{
+        color: #ffff;
+    }
+}

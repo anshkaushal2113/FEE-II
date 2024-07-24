@@ -1,0 +1,83 @@
+.container{
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+}
+.container:hover{
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    height:300px;
+    width:300px;
+    border: 5px solid purple;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.c1{
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    margin:10px;
+}
+.c2{
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    margin:10px;
+}
+.c3{
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    margin:10px;
+}
+.c4{
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    margin:10px;
+}
+.c5{
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    margin:10px;
+}
+
+.c1:hover{
+    transition-timing-function: linear;
+    translate: 700px;
+    transition-duration: 1s;
+}
+
+.c2:hover{
+    transition-timing-function: ease-in;
+    translate: 100px 100px 100px;
+    transition-duration: 1s;
+}
+
+.c3:hover{
+    transition-timing-function: ease-in;
+    translate: 100px -100px 100px;
+    transition-duration: 1s;
+}
+
+.c4:hover{
+    transition-timing-function: ease-in;
+    translate: -100px -100px 100px;
+    transition-duration: 1s;
+}
+
+.c5:hover{
+    transition-timing-function: ease-in;
+    translate: -100px 100px -100px;
+    transition-duration: 1s;
+}
+
+

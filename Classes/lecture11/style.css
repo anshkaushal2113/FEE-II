@@ -1,0 +1,48 @@
+/*universal selector: */
+*{
+    font-size: 20px;
+    /* padding: 0px; */
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*id-selector: */
+#superhero{
+    text-decoration: line-through;
+    color: blue;
+}
+
+/*class-selector: */
+.hero{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: crimson;
+}
+
+/* element selector: */
+p{
+    /* background-color: gold; */
+}
+
+/* attribute selector: */
+input[type="text"]{
+    background-color: pink;
+} 
+input[type="password"]{
+    background-color: cornflowerblue;
+} 
+
+/*combinatot pseudo class pseudo element*/
+
+li:hover{
+    color: greenyellow;
+}
+
+/* pseduo element selector */
+
+p::selection{
+    color: pink;
+}
+p::before{
+    content: icon;
+}

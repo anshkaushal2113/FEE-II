@@ -1,0 +1,27 @@
+/* 1.descendent selector: */
+section ul li a{
+    color: red;
+}
+
+section ol ul li{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* 2. child combinator selector:  */
+
+section > h3{
+    color: brown;
+}
+
+/* 3. adjacent combinator selector: */
+h3+p{
+    /*this is a forward flow tag*/
+    marker: red;
+}
+
+/* 4.sibling combinator selector: */
+section ~ ol{
+    /*this is a forward flow tag*/
+    color: pink;
+}
