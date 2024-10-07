@@ -13,4 +13,5 @@ function createChessboard(size) {
     return board;
 }
 
+
 console.log(createChessboard(8));
