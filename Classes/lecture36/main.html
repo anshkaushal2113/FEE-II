@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            display: flex;
+            
+        } */
+         .main{
+            /* display: flex; */
+            justify-content: center;
+            /* align-items: center; */
+            height: 200vh;
+            background-color: #f1f1f1;
+            padding-top: 5px;
+         }
+        .profile{
+            border-radius:20px ;
+            display: flex;
+            flex-direction: column;
+            background-color: lightblue;
+            width: 400px;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            margin: 100px;
+            padding: 5px;
+            box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="profile">
+        <img src=https://i.pinimg.com/originals/1b/e2/9b/1be29b7fc26f3c7afbadf1a3a6fa579f.jpg width="300px " height="240px">
+        <h1 class="name"> Name is Kirito</h1>
+        <h1 class="bio">This is example of bio</h1>
+    </div>
+    <div class="profile">
+    <label for="namedalo">Enter your name: </label>
+        <input type="text" id="namedalo" placeholder="Enter your name">
+        <br>
+        <label for="biodalo">Enter your bio: </label>
+        <input type="text" id="biodalo" placeholder="Enter your bio">
+        <br>
+        <label for="imgdalo">Enter your image: </label>
+        <input type="text" id="imgdalo" placeholder="Enter your image">
+        <br>
+        <button onclick="add()">Submit</button>
+    </div>
+    
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
